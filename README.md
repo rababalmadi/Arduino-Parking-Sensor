@@ -3,7 +3,8 @@
 An embedded system that measures the distance to an obstacle in real time and provides a progressive visual alert using 6-LED.
 
 **Main Components:**
-Arduino Uno: The microcontroller that processes data and controls the outputs.
+
+-Arduino Uno: The microcontroller that processes data and controls the outputs.
 
 -HC-SR04 Ultrasonic Sensor: Measures distance by emitting high-frequency sound waves and calculating their return time (Time-of-Flight principle).
 
