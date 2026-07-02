@@ -12,3 +12,13 @@ An embedded system that measures the distance to an obstacle in real time and pr
 
 **Working Principle:**
 As an object gets closer to the sensor, the Arduino detects the decrease in distance and sequentially lights up more LEDs (from green/yellow to red) to warn the driver to stop.
+
+**Future Improvements**
+
+-OLED display integration
+
+-Wireless/Bluetooth monitoring
+
+-Mobile application support
+
+-IoT-based parking assistance system
