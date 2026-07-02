@@ -4,7 +4,9 @@ An embedded system that measures the distance to an obstacle in real time and pr
 
 **Main Components:**
 Arduino Uno: The microcontroller that processes data and controls the outputs.
+
 -HC-SR04 Ultrasonic Sensor: Measures distance by emitting high-frequency sound waves and calculating their return time (Time-of-Flight principle).
+
 -6x LEDs & Resistors: Act as a visual proximity indicator.
 
 **Working Principle:**
