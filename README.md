@@ -1,24 +1,28 @@
-# Arduino-Parking-Sensor
-**Core Function:**
-An embedded system that measures the distance to an obstacle in real time and provides a progressive visual alert using 6-LED.
+# Arduino Parking Sensor System
 
-**Main Components:**
+## Core Function
 
--Arduino Uno: The microcontroller that processes data and controls the outputs.
+An embedded parking assistance system that measures the distance between a vehicle and nearby obstacles in real time. The system provides progressive visual feedback using LEDs to help the driver park safely.
 
--HC-SR04 Ultrasonic Sensor: Measures distance by emitting high-frequency sound waves and calculating their return time (Time-of-Flight principle).
+## Main Components
 
--6x LEDs & Resistors: Act as a visual proximity indicator.
+- **Arduino Uno:** The microcontroller that processes sensor data and controls the outputs.
+- **HC-SR04 Ultrasonic Sensor:** Measures the distance to obstacles using ultrasonic waves.
+- **6 LEDs:** Provide visual indication of the remaining distance.
+- **Resistors:** Protect the LEDs by limiting current.
+- **Jumper Wires & Breadboard:** Used to connect all components.
 
-**Working Principle:**
-As an object gets closer to the sensor, the Arduino detects the decrease in distance and sequentially lights up more LEDs (from green/yellow to red) to warn the driver to stop.
+## Working Principle
 
-**Future Improvements**
+The HC-SR04 continuously measures the distance to nearby objects. As the measured distance decreases, the Arduino sequentially turns on more LEDs. This allows the driver to estimate how close the vehicle is to an obstacle. The closer the obstacle, the more LEDs illuminate, providing an intuitive parking aid.
 
--OLED display integration
+## Future Improvements
 
--Wireless/Bluetooth monitoring
-
+- OLED display integration
+- Buzzer for audio alerts
+- Bluetooth monitoring
+- Mobile application support
+- IoT-based parking assistance system
 -Mobile application support
 
 -IoT-based parking assistance system
